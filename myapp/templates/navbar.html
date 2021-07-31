@@ -1,0 +1,34 @@
+{% load static %}
+<nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'display' %}">
+            <img src="{% static 'mypf/img/profile.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+            <span class="home-brand">SAUMYA RANJAN SAHOO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mx-auto" id="navid">
+                
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/saumya-ranjan-sahoo-00110b11a/">
+                        <img src="{% static 'mypf/img/linkedin.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/saumyaoec">
+                        <img src="{% static 'mypf/img/fb-logo.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </li>
+                <li class="nav-link">
+                    <a class="nav-link" href="https://www.twitter.com/@Saumya126082">
+                        <img src="{% static 'mypf/img/twitter-logo.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
